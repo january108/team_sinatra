@@ -20,7 +20,6 @@ get '/' do
 	@content = "this page is made by  " + strong(@author)
 	@name = ""
 	erb :index
-
 end
 
 post '/' do
