@@ -15,7 +15,7 @@ helpers do
 
 end
 
-get '/index' do
+get '/' do
 	@title = "index page"
 	@content = "this page is made by  " + strong(@author)
 	@name = ""
@@ -23,7 +23,7 @@ get '/index' do
 
 end
 
-post '/index' do
+post '/' do
 	@title = "index page2"
 	@content = "Post sucsessed ! "
 	@name = @params[:name]
