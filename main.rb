@@ -16,14 +16,14 @@ helpers do
 end
 
 get '/' do
-	@title = "index page"
+	@title = "team3's index page"
 	@content = "this page is made by  " + strong(@author)
 	@name = ""
 	erb :index
 end
 
 post '/' do
-	@title = "index page2"
+	@title = "team3's index page2"
 	@content = "Post sucsessed ! "
 	@name = @params[:name]
 	erb :index
