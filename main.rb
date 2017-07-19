@@ -2,7 +2,7 @@ require 'sinatra'
 
 
 before do
-	@author = "kusakabe"
+	@author = "collabo3 久田　宮崎　張　日下部"
 end
 
 
